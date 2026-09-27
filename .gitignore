@@ -22,6 +22,42 @@
 *.ecm
 *.pbp
 *.toc
+*.cdi
+*.nrg
+*.gz
+*.tgz
+*.tar
+*.xz
+*.bz2
+*.zst
+
+# Formatos de dados PS1 (arquivos extraídos do disco)
+*.tim
+*.vag
+*.vab
+*.vh
+*.vb
+*.seq
+*.sep
+*.str
+*.xa
+*.tmd
+*.cpe
+*.psx
+
+# Saves / memory cards / estados de emulador
+*.mcr
+*.mcd
+*.gme
+*.psv
+*.srm
+*.sav
+*.sstate
+*.State
+
+# Temporários do kit forense
+*.tmp-tsr
+*.tsrpart
 
 # Áreas locais de trabalho forense (somente na máquina do proprietário)
 LegacyReference/_work/

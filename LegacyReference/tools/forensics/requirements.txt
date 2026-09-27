@@ -1,0 +1,20 @@
+# Kit forense tsr_forensics — Python 3.10 ou superior (CPython).
+# Dependências diretas: py7zr e pycdlib (todo o resto é biblioteca padrão).
+# As dependências do py7zr também estão fixadas, com os mesmos marcadores de
+# ambiente declarados pelo py7zr 1.1.3, para o ambiente do proprietário ser igual
+# ao testado. Versões conforme "pip show" no ambiente de desenvolvimento.
+# Wheels para Windows (win_amd64) conferidos no PyPI para CPython 3.10-3.13.
+# Versão com hashes SHA-256 (mais segura): requirements-lock.txt
+#   python -m pip install --require-hashes -r requirements-lock.txt
+py7zr==1.1.3
+pycdlib==1.21.0
+# dependências do py7zr 1.1.3
+backports.zstd==1.7.0 ; python_version < "3.14"
+brotli==1.2.0 ; platform_python_implementation == "CPython"
+inflate64==1.0.4
+multivolumefile==0.2.3
+psutil==7.2.2 ; sys_platform != "cygwin"
+pybcj==1.0.8
+pycryptodomex==3.23.0
+pyppmd==1.3.1
+texttable==1.7.0
