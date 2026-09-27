@@ -1,0 +1,37 @@
+# ============================================================
+# ATENÇÃO: este repositório é PÚBLICO (GitHub Pages).
+# NUNCA versionar material do jogo original: arquivo compactado,
+# imagem de disco, arquivos extraídos, BIOS, capturas brutas.
+# Ver docs/PUBLIC_RELEASE_GATE.md e LegacyReference/README.md.
+# ============================================================
+
+# Arquivos compactados e imagens de disco
+*.7z
+*.zip
+*.rar
+*.iso
+*.bin
+*.cue
+*.img
+*.ccd
+*.sub
+*.sbi
+*.mds
+*.mdf
+*.chd
+*.ecm
+*.pbp
+*.toc
+
+# Áreas locais de trabalho forense (somente na máquina do proprietário)
+LegacyReference/_work/
+LegacyReference/_original/
+LegacyReference/_extracted/
+LegacyReference/measurements/raw/
+LegacyReference/captures/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
